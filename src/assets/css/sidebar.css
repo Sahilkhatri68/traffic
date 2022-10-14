@@ -1,0 +1,34 @@
+.itemsContainer{
+    box-shadow: 4px 0 5px -2px #888;
+    width: 100px;
+}
+.leftsidebar{
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    padding: 11px 0px 11px 0px !important;
+    border: 1px solid rgb(228 228 228);
+}
+.riconsCont{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.rricons{
+    font-size: 25px;
+    color: #1b6eb2;
+}
+.sidetext{
+    font-size: 13px;
+    color: #8E8E90;
+    text-align: center;
+    font-weight: 500;
+}
+.leftsidebar:hover{
+    background-color: #D2EDFF;
+    border: 2px solid #1C6DA5;
+    border-color: #1C6DA5;
+    cursor: pointer;
+}

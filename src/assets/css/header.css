@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1b6eb2; 
+  padding: 2px 13px 5px 13px;
+}
+.leftcont {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.rightcont {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.infodiv {
+  display: flex;
+}
+.icondiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.muiicon{
+    color: white;
+    font-size: 20px;
+}
+.heaedingcont{
+    margin-left: 10px;
+    padding: 2px;
+}
+.heading{
+    color: white;
+    font-size: 18px;
+}
+.lowerheading{
+    color: white;
+    font-size: 12px;
+}
+.infodiv{
+    color: white;
+    margin-right: 10px;
+}
+.icondiv{
+    color: white;
+}
+
+ 
