@@ -5,6 +5,7 @@ import "../assets/css/mainbody.css";
 import overspeed from "../assets/images/overspeed.png";
 import Licenseplate from "../assets/images/licensePlate.png";
 import Carousel from "react-bootstrap/Carousel";
+import "bootstrap/dist/css/bootstrap.min.css";
 import car from "../assets/images/car.jpg";
 import car2 from "../assets/images/car3.png";
 function MainBody() {
@@ -31,7 +32,30 @@ function MainBody() {
           <div className="lowercontent">
             <div className="leftcontent">
               <div>
-                <img src={car2} style={{ width: "100%" }} />
+                {/* <img src={car2} style={{ width: "100%" }} /> */}
+                <Carousel>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={car2}
+                      alt="First slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={car2}
+                      alt="Second slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={car2}
+                      alt="Third slide"
+                    />
+                  </Carousel.Item>
+                </Carousel>
               </div>
               <div>
                 <div style={{ marginLeft: 4 }}>Transaction Details</div>
@@ -225,7 +249,7 @@ function MainBody() {
                         <td data-label="Period"></td>
                       </tr>
                       <tr>
-                        <td data-label="Account">8  </td>
+                        <td data-label="Account">8 </td>
 
                         <td data-label="Due Date">
                           <a href="" style={{ color: "blue" }}>
